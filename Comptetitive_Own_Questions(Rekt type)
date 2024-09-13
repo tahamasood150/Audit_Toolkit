@@ -11,6 +11,7 @@ What Token Standards Used ?
 Total Lines of SLOC ?
 Complexity of Code ?
 How many Public and External Functions?
+What external libraries are used? (like: ChainLink , Openzeppelin)
 Run the code through a spellchecker ?
 Avoid using assembly as much as possible? (Use of assembly increases audit times because it throws away Solidity's guardrails and must be checked much more carefully)
 Document use of unchecked. (Concretely describe why it is safe to not perform arithmetic checks on each code block. Preferably for each operation.)
