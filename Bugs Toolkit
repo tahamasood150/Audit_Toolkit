@@ -1,0 +1,31 @@
+BUGS :
+
+1. Re-entrancy
+2. Access Control
+3. Improper Input Validation
+4. Excessive function restrictions
+5. msg.sender spoofing or Double voting 
+6. FlashLoan Governance Attacks
+7. FlashLoan Price Attacks
+8. Bypassing the Contract Check
+9. DOS or Gas Griefing
+10. Using the Chainlink Randomness Oracle Wrong
+11. Weird ERC-20
+12. Logic Bugs in Lending Protocol
+13. Vulnerabilities in staking protocols
+14. Unchecked return values
+15. msg.value in loop
+16. Upgrade bugs + related to proxy
+17. Rounding errors
+18. Front-running
+19. Signature Related Bugs
+20. Oracle Manipulation
+21. Not Supported Opcodes when different deployed on different chains 
+
+A security issue in Solidity boils down to smart contracts not behaving the way they were intended to. This can fall into four broad categories:
+
+Funds getting stolen
+Funds getting locked up or frozen inside a contract
+People receive less rewards than anticipated (rewards are delayed or reduced)
+People receive more rewards than anticipated (leading to inflation and devaluation)
+
